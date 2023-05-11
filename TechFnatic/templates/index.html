@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}  
+    
+    <link rel="stylesheet" type="text/css"   href="{% static 'css/style.css ' %}" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+  
+    
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav id="mainNav">
+
+        <div class="container">
+            <ul class="navbar-nav mr-auto">
+                <li>
+                    <img src="{% static 'image/logo.png '  %}" id="logo">
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'index' %}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#bookmark">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'contact' %}">Contact Us</a>
+                </li>
+            </ul>
+            
+        </div>
+    </nav>
+    <!--End Navbar-->
+    <hr>
+
+
+    <img src="{% static 'image/abc.png '  %}" id="banner">
+    <h1><b>
+        Bring Your <br>Ideas to life<br> with <u>TechFnatic</u></b>
+    </h1>
+    <p>The one stop store for all your Technical Requirements.<br>
+         Help us transform your business with all heavy lifting<br> you need.</p>
+    <a href="#bookmark" target="blank">
+    <button id="button">Our Products</button>
+    </a>
+    <br><br><br><br>
+    <br><br><br><br>
+
+    
+    <div id="our">
+        <h1 id="bookmark">---Our Products---</h1>
+        </div>
+        <div>
+    
+            <img src="{% static 'image/easy.png '  %}">
+            <hr>
+            <h2><span style="color: darkred;">Easy-eCom -</span><br>
+                An easy, DIY e-commerce web application</h2>
+                <h4>Know more --></h4>
+
+            <img src="{% static 'image/website.png '  %}">
+            <hr>
+            <h2><span style="color: darkred;">WebsitEasY -</span><br>
+                A DIY Website builder & Deployer</h2>
+                <h4>Know more --></h4>
+
+            <img src="{% static 'image/estimate.png '  %}">
+            <hr>  
+            <h2><span style="color: darkred;">EstimatEasY -</span><br>
+                    An AI driven Deep Learning SAAS technology,</h2>
+                    <h4>Know more --></h4>
+                    
+
+                
+    </div>
+    <div>
+        <img src="{% static 'image/about.png '  %}" id="about">
+        <h1>About us</h1>
+        <p>A Deeply Motivated and Technology Fanatic team, Developing products with<br>
+             primary focus on Deep Learning, Artificial Intelligence, Machine Learning <br>
+             and creating products which can solve real time problems across industries,<br>
+              predominantly working on automating products and bringing in technology <br>
+               addition to industries with very little technology exposure.</p>
+    </div>
+    <br><br><br>
+    <br><br><br><br>
+    <hr>
+    <div>
+        <img src="{% static 'image/logo.png '  %}" id="logo"><br><br><br>
+    <ul>
+        <br>
+        <li><a href="{% url 'index' %}">Home</a></li>
+        <li><a href="#bookmark">Products</a></li>
+        <li><a href="#">Career</a></li>
+        <li><a href="{% url 'contact' %}">Contact Us</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms& Conditions</a></li>
+    
+    </ul>
+    </div>
+    <br>
+    <div>
+        <ul><p>
+            <i class="glyphicon glyphicon-envelope"></i>
+           Email
+            <a href="solution@techfnatic.com"></a><br>
+        </p>
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            Address
+        </ul>
+        <hr>
+    </div>
+
+   
+    <footer id="mainFooter">
+        <p>Copyright&copy; 2022</p>
+    </footer>
+
+</body>
+</html>

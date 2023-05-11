@@ -1,0 +1,75 @@
+#mainNav{
+    background: #ebe8e8;
+    color: black;
+    height: 70px;
+}
+#mainNav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+    
+}
+#mainNav li{
+    display: inline;
+    padding: 5px 10px;
+   
+}
+#mainNav a{
+    color: rgb(88, 5, 5);
+    text-decoration: none;
+    font-size: 18px;
+    text-align: right;
+    width: 100px;
+    padding: 25px 20px;
+    font: weight 100px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#mainNav li:hover{
+    background: #d3d2d2;
+
+}
+#mainNav{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+body {
+    background-image: url('/static/image/hex.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+#logo{
+    float: left;
+    
+}
+#banner{
+    float: right;
+    
+}
+#button{
+    color: white;
+    background-color: rgb(138, 7, 7);
+    box-sizing: 25px;
+
+}
+#about{
+    float: left;
+    width: -35px;
+    height: -35px;
+}
+#head{
+    font-size: 100px;
+}
+#our{
+    align-self: center;
+    font-size: 5px;
+}
+#mainFooter{
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-weight: 200px;
+}
